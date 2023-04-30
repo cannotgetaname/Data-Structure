@@ -9,6 +9,13 @@ typedef struct Node{
     int data;
     struct Node *next;
 }node;
+
+void query_link(node* ptr, int data);
+void init();
+void print_link(node* ptr);
+void insert_link();
+void delete_link();
+
 node *head, *ptr;
 void main(){
     init();
